@@ -18,7 +18,7 @@ struct ContentView: View {
     // itself, triggering both events. It only appears to be an issue with WKWebView
     // in Mac Catalyst as of MacOS 13. The same issue occurs in UIKit with direct usage
     // of WKWebView.
-    var html: String = "<div contenteditable=\"true\" onkeydown=\"console.log('keydown: ' + event.key);\" onclick=\"console.log('click');\"<h1>Hello world.</h1></div>"
+    var html: String = "<div contenteditable=\"true\" onkeydown=\"console.log('keydown: ' + event.key);\" onclick=\"console.log('click');\"><h1>Hello world.</h1></div>"
     
     // Alternatively use an input element, which also fails on Mac Catalyst for MacOS 13 (Ventura)
     // var html: String = "<input type=\"text\" onkeydown=\"console.log('keydown: ' + event.key);\" onclick=\"console.log('click');\">"
