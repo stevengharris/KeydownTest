@@ -1,12 +1,11 @@
 //
 //  ContentView.swift
-//  KeydownTest
+//  KeydownTestiOS
 //
-//  Created by Steven Harris on 11/28/22.
+//  Created by Steven Harris on 11/29/22.
 //
 
 import SwiftUI
-import WebKit
 
 struct ContentView: View {
     
@@ -17,7 +16,7 @@ struct ContentView: View {
     // Safari Web Inspector. FWIW, the same contenteditable DIV works fine in Safari
     // itself, triggering both events. It only appears to be an issue with WKWebView
     // in Mac Catalyst as of MacOS 13. The same issue occurs in UIKit with direct usage
-    // of WKWebView.
+    // of WKWebView. The issue does not occur on native MacOS apps.
     var html: String = "<div contenteditable=\"true\" onkeydown=\"console.log('keydown: ' + event.key);\" onclick=\"console.log('click');\"><h1>Hello world.</h1></div>"
     
     // Alternatively use an input element, which also fails on Mac Catalyst for MacOS 13 (Ventura)
@@ -30,18 +29,5 @@ struct ContentView: View {
         .padding()
         .background(Color.red)
     }
+    
 }
-
-struct WebView: UIViewRepresentable {
-    
-    var html: String
-    
-    func makeUIView(context: Context) -> WKWebView {
-        return WKWebView()
-    }
-    
-    func updateUIView(_ webView: WKWebView, context: Context) {
-        webView.loadHTMLString(html, baseURL: nil)
-    }
-}
-

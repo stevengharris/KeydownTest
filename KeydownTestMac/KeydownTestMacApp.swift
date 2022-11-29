@@ -1,14 +1,14 @@
 //
-//  KeydownTestApp.swift
-//  KeydownTest
+//  KeydownTestMacApp.swift
+//  KeydownTestMac
 //
-//  Created by Steven Harris on 11/28/22.
+//  Created by Steven Harris on 11/29/22.
 //
 
 import SwiftUI
 
 @main
-struct KeydownTestApp: App {
+struct KeydownTestMacApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

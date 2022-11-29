@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA18AE692935723A0053591F /* KeydownTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AE682935723A0053591F /* KeydownTestApp.swift */; };
-		AA18AE6B2935723A0053591F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AE6A2935723A0053591F /* ContentView.swift */; };
-		AA18AE6D2935723B0053591F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA18AE6C2935723B0053591F /* Assets.xcassets */; };
-		AA18AE702935723B0053591F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA18AE6F2935723B0053591F /* Preview Assets.xcassets */; };
+		AA18AE97293677A30053591F /* KeydownTestMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AE96293677A30053591F /* KeydownTestMacApp.swift */; };
+		AA18AE99293677A30053591F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AE98293677A30053591F /* ContentView.swift */; };
+		AA18AE9B293677A40053591F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA18AE9A293677A40053591F /* Assets.xcassets */; };
+		AA18AE9F293677A40053591F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA18AE9E293677A40053591F /* Preview Assets.xcassets */; };
+		AA18AEAB29367BFE0053591F /* KeydownTestiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AEAA29367BFE0053591F /* KeydownTestiOSApp.swift */; };
+		AA18AEAD29367BFE0053591F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AEAC29367BFE0053591F /* ContentView.swift */; };
+		AA18AEAF29367BFF0053591F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA18AEAE29367BFF0053591F /* Assets.xcassets */; };
+		AA18AEB229367BFF0053591F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA18AEB129367BFF0053591F /* Preview Assets.xcassets */; };
+		AA18AEB829367C810053591F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AE8C2936753A0053591F /* WebView.swift */; };
+		AA18AEBA29367C8B0053591F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA18AEB929367C8B0053591F /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA18AE652935723A0053591F /* KeydownTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeydownTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA18AE682935723A0053591F /* KeydownTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeydownTestApp.swift; sourceTree = "<group>"; };
-		AA18AE6A2935723A0053591F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA18AE6C2935723B0053591F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA18AE6F2935723B0053591F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA18AE76293572E00053591F /* KeydownTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeydownTest.entitlements; sourceTree = "<group>"; };
+		AA18AE8C2936753A0053591F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		AA18AE94293677A30053591F /* KeydownTestMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeydownTestMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA18AE96293677A30053591F /* KeydownTestMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeydownTestMacApp.swift; sourceTree = "<group>"; };
+		AA18AE98293677A30053591F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA18AE9A293677A40053591F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA18AE9C293677A40053591F /* KeydownTestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeydownTestMac.entitlements; sourceTree = "<group>"; };
+		AA18AE9E293677A40053591F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA18AEA829367BFE0053591F /* KeydownTestiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeydownTestiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA18AEAA29367BFE0053591F /* KeydownTestiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeydownTestiOSApp.swift; sourceTree = "<group>"; };
+		AA18AEAC29367BFE0053591F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA18AEAE29367BFF0053591F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA18AEB129367BFF0053591F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA18AEB629367C320053591F /* KeydownTestiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeydownTestiOS.entitlements; sourceTree = "<group>"; };
+		AA18AEB929367C8B0053591F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA18AE622935723A0053591F /* Frameworks */ = {
+		AA18AE91293677A30053591F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18AEA529367BFE0053591F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,7 +57,8 @@
 		AA18AE5C2935723A0053591F = {
 			isa = PBXGroup;
 			children = (
-				AA18AE672935723A0053591F /* KeydownTest */,
+				AA18AEA929367BFE0053591F /* KeydownTestiOS */,
+				AA18AE95293677A30053591F /* KeydownTestMac */,
 				AA18AE662935723A0053591F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,27 +66,50 @@
 		AA18AE662935723A0053591F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA18AE652935723A0053591F /* KeydownTest.app */,
+				AA18AE94293677A30053591F /* KeydownTestMac.app */,
+				AA18AEA829367BFE0053591F /* KeydownTestiOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA18AE672935723A0053591F /* KeydownTest */ = {
+		AA18AE95293677A30053591F /* KeydownTestMac */ = {
 			isa = PBXGroup;
 			children = (
-				AA18AE76293572E00053591F /* KeydownTest.entitlements */,
-				AA18AE682935723A0053591F /* KeydownTestApp.swift */,
-				AA18AE6A2935723A0053591F /* ContentView.swift */,
-				AA18AE6C2935723B0053591F /* Assets.xcassets */,
-				AA18AE6E2935723B0053591F /* Preview Content */,
+				AA18AE9C293677A40053591F /* KeydownTestMac.entitlements */,
+				AA18AE96293677A30053591F /* KeydownTestMacApp.swift */,
+				AA18AE98293677A30053591F /* ContentView.swift */,
+				AA18AE8C2936753A0053591F /* WebView.swift */,
+				AA18AE9A293677A40053591F /* Assets.xcassets */,
+				AA18AE9D293677A40053591F /* Preview Content */,
 			);
-			path = KeydownTest;
+			path = KeydownTestMac;
 			sourceTree = "<group>";
 		};
-		AA18AE6E2935723B0053591F /* Preview Content */ = {
+		AA18AE9D293677A40053591F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AA18AE6F2935723B0053591F /* Preview Assets.xcassets */,
+				AA18AE9E293677A40053591F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA18AEA929367BFE0053591F /* KeydownTestiOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA18AEB629367C320053591F /* KeydownTestiOS.entitlements */,
+				AA18AEAA29367BFE0053591F /* KeydownTestiOSApp.swift */,
+				AA18AEAC29367BFE0053591F /* ContentView.swift */,
+				AA18AEB929367C8B0053591F /* WebView.swift */,
+				AA18AEAE29367BFF0053591F /* Assets.xcassets */,
+				AA18AEB029367BFF0053591F /* Preview Content */,
+			);
+			path = KeydownTestiOS;
+			sourceTree = "<group>";
+		};
+		AA18AEB029367BFF0053591F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA18AEB129367BFF0053591F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -72,21 +117,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA18AE642935723A0053591F /* KeydownTest */ = {
+		AA18AE93293677A30053591F /* KeydownTestMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA18AE732935723B0053591F /* Build configuration list for PBXNativeTarget "KeydownTest" */;
+			buildConfigurationList = AA18AEA0293677A40053591F /* Build configuration list for PBXNativeTarget "KeydownTestMac" */;
 			buildPhases = (
-				AA18AE612935723A0053591F /* Sources */,
-				AA18AE622935723A0053591F /* Frameworks */,
-				AA18AE632935723A0053591F /* Resources */,
+				AA18AE90293677A30053591F /* Sources */,
+				AA18AE91293677A30053591F /* Frameworks */,
+				AA18AE92293677A30053591F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = KeydownTest;
-			productName = KeydownTest;
-			productReference = AA18AE652935723A0053591F /* KeydownTest.app */;
+			name = KeydownTestMac;
+			productName = KeydownTestMac;
+			productReference = AA18AE94293677A30053591F /* KeydownTestMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA18AEA729367BFE0053591F /* KeydownTestiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA18AEB329367BFF0053591F /* Build configuration list for PBXNativeTarget "KeydownTestiOS" */;
+			buildPhases = (
+				AA18AEA429367BFE0053591F /* Sources */,
+				AA18AEA529367BFE0053591F /* Frameworks */,
+				AA18AEA629367BFE0053591F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeydownTestiOS;
+			productName = KeydownTestiOS;
+			productReference = AA18AEA829367BFE0053591F /* KeydownTestiOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +161,10 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					AA18AE642935723A0053591F = {
+					AA18AE93293677A30053591F = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AA18AEA729367BFE0053591F = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -117,30 +182,51 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA18AE642935723A0053591F /* KeydownTest */,
+				AA18AEA729367BFE0053591F /* KeydownTestiOS */,
+				AA18AE93293677A30053591F /* KeydownTestMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA18AE632935723A0053591F /* Resources */ = {
+		AA18AE92293677A30053591F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA18AE702935723B0053591F /* Preview Assets.xcassets in Resources */,
-				AA18AE6D2935723B0053591F /* Assets.xcassets in Resources */,
+				AA18AE9F293677A40053591F /* Preview Assets.xcassets in Resources */,
+				AA18AE9B293677A40053591F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18AEA629367BFE0053591F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA18AEB229367BFF0053591F /* Preview Assets.xcassets in Resources */,
+				AA18AEAF29367BFF0053591F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA18AE612935723A0053591F /* Sources */ = {
+		AA18AE90293677A30053591F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA18AE6B2935723A0053591F /* ContentView.swift in Sources */,
-				AA18AE692935723A0053591F /* KeydownTestApp.swift in Sources */,
+				AA18AEB829367C810053591F /* WebView.swift in Sources */,
+				AA18AE99293677A30053591F /* ContentView.swift in Sources */,
+				AA18AE97293677A30053591F /* KeydownTestMacApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA18AEA429367BFE0053591F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA18AEBA29367C8B0053591F /* WebView.swift in Sources */,
+				AA18AEAD29367BFE0053591F /* ContentView.swift in Sources */,
+				AA18AEAB29367BFE0053591F /* KeydownTestiOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +283,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +336,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,15 +345,93 @@
 			};
 			name = Release;
 		};
-		AA18AE742935723B0053591F /* Debug */ = {
+		AA18AEA1293677A40053591F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = KeydownTest/KeydownTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeydownTestMac/KeydownTestMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KeydownTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KeydownTestMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XXG4VJQ59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.KeydownTestMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA18AEA2293677A40053591F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeydownTestMac/KeydownTestMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeydownTestMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 7XXG4VJQ59;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.KeydownTestMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA18AEB429367BFF0053591F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeydownTestiOS/KeydownTestiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeydownTestiOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 7XXG4VJQ59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -278,12 +440,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.KeydownTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.KeydownTestiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -294,15 +457,15 @@
 			};
 			name = Debug;
 		};
-		AA18AE752935723B0053591F /* Release */ = {
+		AA18AEB529367BFF0053591F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = KeydownTest/KeydownTest.entitlements;
+				CODE_SIGN_ENTITLEMENTS = KeydownTestiOS/KeydownTestiOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"KeydownTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"KeydownTestiOS/Preview Content\"";
 				DEVELOPMENT_TEAM = 7XXG4VJQ59;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,12 +474,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.KeydownTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevengharris.KeydownTestiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
@@ -339,11 +503,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA18AE732935723B0053591F /* Build configuration list for PBXNativeTarget "KeydownTest" */ = {
+		AA18AEA0293677A40053591F /* Build configuration list for PBXNativeTarget "KeydownTestMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA18AE742935723B0053591F /* Debug */,
-				AA18AE752935723B0053591F /* Release */,
+				AA18AEA1293677A40053591F /* Debug */,
+				AA18AEA2293677A40053591F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA18AEB329367BFF0053591F /* Build configuration list for PBXNativeTarget "KeydownTestiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA18AEB429367BFF0053591F /* Debug */,
+				AA18AEB529367BFF0053591F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
