@@ -23,11 +23,7 @@ struct ContentView: View {
     // var html: String = "<input type=\"text\" onkeydown=\"console.log('keydown: ' + event.key);\" onclick=\"console.log('click');\">"
 
     var body: some View {
-        VStack {
-            WebView(html: html)
-        }
-        .padding()
-        .background(Color.red)
+        WebView(html: html)
     }
     
 }
